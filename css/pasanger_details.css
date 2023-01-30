@@ -1,0 +1,60 @@
+
+.passenger_info_content_block {
+  box-shadow: 0 0 4px 0 hsl(0deg 0% 64% / 50%);
+  padding: 1em 1em 0.5em;
+  background: #fff;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+.custinfo {
+height: 100vh;
+background: #fff;
+color: #4a4a4a;
+position: fixed;
+opacity: 1;
+top: 0;
+right: -50%;
+width: 45%;
+z-index: 10001;
+transition: all .5s ease-in;
+box-shadow: -5px 0 5px -3px #949393;
+padding: 20px;
+}
+.custinfo.slidein {
+right: 0;
+}
+.primo-custinfo {
+height: 71vh;
+}
+.radio_block_title {
+font-size: .875em;
+text-align: left;
+color: rgba(74,74,74,.86);
+display: inline-block;
+margin-bottom: 0.5em;
+}
+.input_box {
+width: 50%;
+background: #fff;
+line-height: 1.2em;
+-webkit-transition: all .3s;
+padding: 0.5em;
+border-radius: 3px;
+border: 1px solid #bababa;
+outline: none;
+font-size: 14px;
+margin: 0.8em 0 0;
+color: rgba(74,74,74,.86)!important;
+}
+.cusinfo-sub-components {
+height: 80vh;
+overflow-y: auto;
+border-bottom: 1px solid #ccc;
+}
+.custinfo_label {
+display: inline-block;
+font-size: .875em;
+text-align: left;
+color: rgba(74,74,74,.86);
+width: 100%;
+}
